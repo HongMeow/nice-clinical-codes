@@ -1,0 +1,68 @@
+# Planning / internal docs
+_planning/
+
+# Logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.local
+.env.production
+.env*.local
+*.pem
+*.key
+
+# Data (large files, download separately)
+data/raw/*.xlsm
+data/raw/*.xlsx
+data/raw/*.csv
+data/raw/*.zip
+chromadb_data/
+*.db
+*.sqlite3
+
+# ML artifacts
+*.joblib
+*.pkl
+*.pickle
+models/
+
+# Node / Frontend
+node_modules/
+.next/
+out/
+frontend/.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Infrastructure
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Docker
+docker-compose.override.yml
+
+# Jupyter
+.ipynb_checkpoints/
