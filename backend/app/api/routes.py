@@ -1,5 +1,13 @@
+import asyncio
+import logging
+import time
+
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel, Field
+
+from app.graph.graph import run_pipeline
+
+logger = logging.getLogger(__name__)
 
 router = APIRouter()
 
@@ -12,10 +20,6 @@ class SearchRequest(BaseModel):
         description="Clinical condition query, e.g. 'type 2 diabetes with hypertension'",
         min_length=2,
         max_length=500,
-    )
-    coding_systems: list[str] = Field(
-        default=["SNOMED", "ICD10"],
-        description="Coding systems to search: SNOMED, ICD10, or both",
     )
 
 
@@ -37,6 +41,7 @@ class SearchResponse(BaseModel):
     results: list[CodeResult]
     summary: dict
     provenance_trail: list[dict]
+    elapsed_seconds: float
 
 
 # Endpoints
@@ -44,8 +49,38 @@ class SearchResponse(BaseModel):
 @router.post("/search", response_model=SearchResponse)
 async def search_codes(request: SearchRequest):
     """Search for clinical codes matching a condition query."""
-    # TODO: wire up LangGraph pipeline (NICE-013)
-    raise HTTPException(status_code=501, detail="Not implemented yet")
+    t0 = time.time()
+
+    try:
+        result = await asyncio.to_thread(run_pipeline, request.query)
+    except Exception as exc:
+        logger.error("Pipeline failed: %s", exc)
+        raise HTTPException(status_code=500, detail="Pipeline processing failed")
+
+    elapsed = round(time.time() - t0, 2)
+    final_codes = result.get("final_code_list", [])
+
+    return SearchResponse(
+        query=request.query,
+        conditions_parsed=result.get("parsed_conditions", []),
+        results=[
+            CodeResult(
+                code=c["code"],
+                term=c["term"],
+                vocabulary=c["vocabulary"],
+                decision=c["decision"],
+                confidence=c["confidence"],
+                rationale=c["rationale"],
+                sources=c.get("sources", []),
+                usage_frequency=c.get("usage_frequency"),
+                classifier_score=c.get("classifier_score"),
+            )
+            for c in final_codes
+        ],
+        summary=result.get("summary", {}),
+        provenance_trail=result.get("provenance_trail", []),
+        elapsed_seconds=elapsed,
+    )
 
 
 class ReviewRequest(BaseModel):
