@@ -38,7 +38,7 @@ User → Frontend (Next.js)
 - **Vector DB:** ChromaDB with PubMedBERT embeddings
 - **LLM:** Claude API (Anthropic)
 - **ML:** scikit-learn (code relevance classifier)
-- **Data:** NHS England refsets, QOF business rules, OpenCodelists, UMLS
+- **Data:** QOF business rules, OpenCodelists, OPCS-4 procedures, UMLS
 - **Deployment:** AWS ECS Fargate, Docker
 
 ## Getting Started
@@ -81,7 +81,16 @@ cp .env.example .env
 # Edit .env and add your API keys
 ```
 
-5. Run both services:
+5. Ingest data (one-time, ~8 minutes):
+
+```bash
+cd backend
+python -m app.ingestion.run_all --data-dir ../data
+```
+
+This populates SQLite and ChromaDB with QOF business rules (23K SNOMED codes), OpenCodelists (681 codes), and OPCS-4 procedures (12K codes).
+
+6. Run both services:
 
 ```bash
 # Terminal 1 — backend
@@ -102,9 +111,11 @@ Frontend: http://localhost:3000
 # Copy env template and add your keys
 cp .env.example .env
 
-# Start everything
+# Start everything (first build takes ~10 min, data is baked into the image)
 docker-compose up --build
 ```
+
+The Docker build runs data ingestion automatically — no manual step needed. SQLite and ChromaDB databases are embedded in the image.
 
 ## Environment Variables
 
@@ -133,7 +144,7 @@ docker-compose up --build
 | [QOF Business Rules](https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-collections/quality-and-outcomes-framework-qof) | Excel | NHS primary care quality indicator code sets |
 | [OpenCodelists](https://www.opencodelists.org) | CSV + scraping | Published, peer-reviewed clinical code lists |
 | [UMLS Metathesaurus](https://uts.nlm.nih.gov) | API | Concept relationships, synonyms, hierarchies |
-| [NHS England Refsets](https://digital.nhs.uk/services/terminology-and-classifications/snomed-ct) | CSV | Curated SNOMED reference sets |
+| [OPCS-4](https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/opcs-4) | XML | NHS procedure and operation codes (12K codes) |
 
 ## Project Structure
 
