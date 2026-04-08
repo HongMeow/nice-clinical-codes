@@ -61,6 +61,13 @@ Thumbs.db
 *.tfstate.backup
 .terraform/
 
+# Local AWS manifests (contain account IDs, ARNs — keep out of public repo)
+aws/
+
+# Local tooling artifacts
+.playwright-mcp/
+screenshots/
+
 # Docker
 docker-compose.override.yml
 
