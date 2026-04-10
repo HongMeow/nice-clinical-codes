@@ -1,0 +1,2119 @@
+{
+  "final_code_list": [
+    {
+      "code": "39579001",
+      "term": "Anaphylaxis",
+      "vocabulary": "SNOMED CT",
+      "decision": "include",
+      "confidence": 0.99,
+      "rationale": "This is the primary SNOMED CT code for anaphylaxis and directly matches the search query.",
+      "sources": [
+        "OMOPHub"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.99,
+      "usage_frequency": null
+    },
+    {
+      "code": "241949004",
+      "term": "Non-allergic anaphylaxis caused by aspirin (disorder)",
+      "vocabulary": "SNOMED CT",
+      "decision": "include",
+      "confidence": 0.95,
+      "rationale": "Non-allergic anaphylaxis caused by aspirin is a direct manifestation of anaphylaxis and should be included in a primary anaphylaxis code list.",
+      "sources": [
+        "ChromaDB",
+        "QOF Business Rules 2024-25"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "871930001",
+      "term": "Anaphylaxis after allergen immunotherapy",
+      "vocabulary": "SNOMED CT",
+      "decision": "include",
+      "confidence": 0.95,
+      "rationale": "Anaphylaxis after allergen immunotherapy is a specific type of anaphylaxis event.",
+      "sources": [
+        "OMOPHub"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "139841000119108",
+      "term": "Anaphylaxis caused by allergy skin test",
+      "vocabulary": "SNOMED CT",
+      "decision": "include",
+      "confidence": 0.9,
+      "rationale": "Anaphylaxis caused by allergy skin test is a specific anaphylaxis diagnosis.",
+      "sources": [
+        "OMOPHub"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.9,
+      "usage_frequency": null
+    },
+    {
+      "code": "15919481000119106",
+      "term": "Anaphylaxis caused by analgesic",
+      "vocabulary": "SNOMED CT",
+      "decision": "include",
+      "confidence": 0.9,
+      "rationale": "Anaphylaxis caused by analgesic is a specific anaphylaxis diagnosis.",
+      "sources": [
+        "OMOPHub"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.9,
+      "usage_frequency": null
+    },
+    {
+      "code": "15919521000119106",
+      "term": "Anaphylaxis caused by anesthetic",
+      "vocabulary": "SNOMED CT",
+      "decision": "include",
+      "confidence": 0.9,
+      "rationale": "Anaphylaxis caused by anesthetic is a specific anaphylaxis diagnosis.",
+      "sources": [
+        "OMOPHub"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.9,
+      "usage_frequency": null
+    },
+    {
+      "code": "15919571000119107",
+      "term": "Anaphylaxis caused by antibacterial agent",
+      "vocabulary": "SNOMED CT",
+      "decision": "include",
+      "confidence": 0.9,
+      "rationale": "Anaphylaxis caused by antibacterial agent is a specific anaphylaxis diagnosis.",
+      "sources": [
+        "OMOPHub"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.9,
+      "usage_frequency": null
+    },
+    {
+      "code": "1217476001",
+      "term": "Anaphylaxis caused by component of vaccine product",
+      "vocabulary": "SNOMED CT",
+      "decision": "include",
+      "confidence": 0.9,
+      "rationale": "Anaphylaxis caused by vaccine component is a specific anaphylaxis diagnosis.",
+      "sources": [
+        "OMOPHub"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.9,
+      "usage_frequency": null
+    },
+    {
+      "code": "914587451000119107",
+      "term": "Anaphylaxis caused by component of vaccine product against severe acute respiratory syndrome coronavirus 2",
+      "vocabulary": "SNOMED CT",
+      "decision": "include",
+      "confidence": 0.9,
+      "rationale": "Anaphylaxis caused by COVID-19 vaccine component is a specific anaphylaxis diagnosis.",
+      "sources": [
+        "OMOPHub"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.9,
+      "usage_frequency": null
+    },
+    {
+      "code": "428291000124105",
+      "term": "Anaphylaxis caused by component of vaccine product containing low dose acellular Bordetella pertussis and Clostridium tetani and low dose Corynebacterium diphtheriae antigens",
+      "vocabulary": "SNOMED CT",
+      "decision": "include",
+      "confidence": 0.9,
+      "rationale": "Anaphylaxis caused by pertussis-tetanus-diphtheria vaccine component is a specific anaphylaxis diagnosis.",
+      "sources": [
+        "OMOPHub"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.9,
+      "usage_frequency": null
+    },
+    {
+      "code": "711561000124107",
+      "term": "Anaphylaxis caused by component of vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens",
+      "vocabulary": "SNOMED CT",
+      "decision": "include",
+      "confidence": 0.9,
+      "rationale": "Anaphylaxis caused by acellular pertussis-tetanus-diphtheria vaccine component is a specific anaphylaxis diagnosis.",
+      "sources": [
+        "OMOPHub"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.9,
+      "usage_frequency": null
+    },
+    {
+      "code": "116261000119105",
+      "term": "Anaphylaxis caused by egg",
+      "vocabulary": "SNOMED CT",
+      "decision": "include",
+      "confidence": 0.9,
+      "rationale": "Anaphylaxis caused by egg is a specific anaphylaxis diagnosis with food allergen.",
+      "sources": [
+        "OMOPHub"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.9,
+      "usage_frequency": null
+    },
+    {
+      "code": "427903006",
+      "term": "Anaphylaxis caused by fish",
+      "vocabulary": "SNOMED CT",
+      "decision": "include",
+      "confidence": 0.9,
+      "rationale": "Anaphylaxis caused by fish is a specific anaphylaxis diagnosis with food allergen.",
+      "sources": [
+        "OMOPHub"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.9,
+      "usage_frequency": null
+    },
+    {
+      "code": "145631000119102",
+      "term": "Anaphylaxis caused by food additive",
+      "vocabulary": "SNOMED CT",
+      "decision": "include",
+      "confidence": 0.9,
+      "rationale": "Anaphylaxis caused by food additive is a specific anaphylaxis diagnosis.",
+      "sources": [
+        "OMOPHub"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.9,
+      "usage_frequency": null
+    },
+    {
+      "code": "429751004",
+      "term": "Anaphylaxis caused by fruit",
+      "vocabulary": "SNOMED CT",
+      "decision": "include",
+      "confidence": 0.9,
+      "rationale": "Anaphylaxis caused by fruit is a specific anaphylaxis diagnosis with food allergen.",
+      "sources": [
+        "OMOPHub"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.9,
+      "usage_frequency": null
+    },
+    {
+      "code": "1003758002",
+      "term": "Anaphylaxis caused by Hevea brasiliensis latex protein",
+      "vocabulary": "SNOMED CT",
+      "decision": "include",
+      "confidence": 0.9,
+      "rationale": "Anaphylaxis caused by latex protein is a specific anaphylaxis diagnosis.",
+      "sources": [
+        "OMOPHub"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.9,
+      "usage_frequency": null
+    },
+    {
+      "code": "16220851000119102",
+      "term": "Anaphylaxis caused by honey bee venom",
+      "vocabulary": "SNOMED CT",
+      "decision": "include",
+      "confidence": 0.9,
+      "rationale": "Anaphylaxis caused by honey bee venom is a specific anaphylaxis diagnosis.",
+      "sources": [
+        "OMOPHub"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.9,
+      "usage_frequency": null
+    },
+    {
+      "code": "16220811000119103",
+      "term": "Anaphylaxis caused by hornet venom",
+      "vocabulary": "SNOMED CT",
+      "decision": "include",
+      "confidence": 0.9,
+      "rationale": "Anaphylaxis caused by hornet venom is a specific anaphylaxis diagnosis.",
+      "sources": [
+        "OMOPHub"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.9,
+      "usage_frequency": null
+    },
+    {
+      "code": "430980000",
+      "term": "Anaphylaxis caused by hymenoptera venom",
+      "vocabulary": "SNOMED CT",
+      "decision": "include",
+      "confidence": 0.9,
+      "rationale": "Anaphylaxis caused by hymenoptera venom is a specific anaphylaxis diagnosis.",
+      "sources": [
+        "OMOPHub"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.9,
+      "usage_frequency": null
+    },
+    {
+      "code": "402390008",
+      "term": "Anaphylaxis caused by ingested food",
+      "vocabulary": "SNOMED CT",
+      "decision": "include",
+      "confidence": 0.9,
+      "rationale": "Anaphylaxis caused by ingested food is a specific anaphylaxis diagnosis.",
+      "sources": [
+        "OMOPHub"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.9,
+      "usage_frequency": null
+    },
+    {
+      "code": "C0344180",
+      "term": "Non-allergic anaphylaxis caused by aspirin",
+      "vocabulary": "UMLS",
+      "decision": "include",
+      "confidence": 0.9,
+      "rationale": "Non-allergic anaphylaxis caused by aspirin is a specific anaphylaxis diagnosis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.9,
+      "usage_frequency": null
+    },
+    {
+      "code": "241960008",
+      "term": "Aspirin-induced angioedema-urticaria (disorder)",
+      "vocabulary": "SNOMED CT",
+      "decision": "uncertain",
+      "confidence": 0.6,
+      "rationale": "Aspirin-induced angioedema-urticaria can be a manifestation related to anaphylaxis but is typically a localized reaction rather than systemic anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.6,
+      "usage_frequency": null
+    },
+    {
+      "code": "C1303167",
+      "term": "Asthma confirmed",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 1.0,
+      "rationale": "Asthma is a respiratory condition distinct from anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 1.0,
+      "usage_frequency": null
+    },
+    {
+      "code": "C5192201",
+      "term": "Near fatal asthma",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 1.0,
+      "rationale": "Near fatal asthma is a respiratory condition, not primary anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 1.0,
+      "usage_frequency": null
+    },
+    {
+      "code": "C0004096",
+      "term": "Asthma",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 1.0,
+      "rationale": "Asthma is a chronic respiratory condition, not primary anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 1.0,
+      "usage_frequency": null
+    },
+    {
+      "code": "C4546431",
+      "term": "Exacerbation of allergic asthma",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 1.0,
+      "rationale": "Exacerbation of allergic asthma is a respiratory condition, not primary anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 1.0,
+      "usage_frequency": null
+    },
+    {
+      "code": "C4543857",
+      "term": "Uncomplicated non-allergic asthma",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 1.0,
+      "rationale": "Uncomplicated non-allergic asthma is a respiratory condition, not primary anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 1.0,
+      "usage_frequency": null
+    },
+    {
+      "code": "C0264480",
+      "term": "Bakers' asthma",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 1.0,
+      "rationale": "Baker's asthma is a respiratory condition, not primary anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 1.0,
+      "usage_frequency": null
+    },
+    {
+      "code": "985271000000102",
+      "term": "Apixaban allergy (disorder)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "This code represents an allergy/hypersensitivity to apixaban, not anaphylaxis itself; allergies are risk factors but not anaphylaxis events.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "735588005",
+      "term": "Uncomplicated allergic asthma",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Uncomplicated allergic asthma is a respiratory condition distinct from anaphylaxis and should not be included.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "609540003",
+      "term": "Non-allergic hypersensitivity to enalapril (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Non-allergic hypersensitivity to enalapril is a drug sensitivity, not an anaphylaxis event.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "389145006",
+      "term": "Allergic asthma",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Allergic asthma is a chronic respiratory condition, not anaphylaxis itself.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "18401000122101",
+      "term": "Non-allergic hypersensitivity to imidapril (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Non-allergic hypersensitivity to imidapril is a drug sensitivity, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "293982008",
+      "term": "Allergy to propranolol (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Allergy to propranolol is a hypersensitivity finding, not anaphylaxis itself.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "293969000",
+      "term": "Allergy to esmolol (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Allergy to esmolol is a drug allergy finding, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "293586001",
+      "term": "Allergy to aspirin (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Allergy to aspirin is a hypersensitivity finding, not anaphylaxis itself.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "609545008",
+      "term": "Non-allergic hypersensitivity to ramipril (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Non-allergic hypersensitivity to ramipril is a drug sensitivity, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "609539000",
+      "term": "Non-allergic hypersensitivity to cilazapril (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Non-allergic hypersensitivity to cilazapril is a drug sensitivity, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "609538008",
+      "term": "Non-allergic hypersensitivity to captopril (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Non-allergic hypersensitivity to captopril is a drug sensitivity, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "89731000000101",
+      "term": "History of clopidogrel allergy (situation)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "History of clopidogrel allergy is a past sensitivity, not an anaphylaxis event.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "609544007",
+      "term": "Non-allergic hypersensitivity to quinapril (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Non-allergic hypersensitivity to quinapril is a drug sensitivity, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "609541004",
+      "term": "Non-allergic hypersensitivity to fosinopril (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Non-allergic hypersensitivity to fosinopril is a drug sensitivity, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "293968008",
+      "term": "Allergy to celiprolol (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Allergy to celiprolol is a hypersensitivity finding, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "401193004",
+      "term": "Asthma confirmed",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Asthma confirmed is a respiratory diagnosis, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "293964005",
+      "term": "Allergy to acebutolol (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Allergy to acebutolol is a hypersensitivity finding, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "293972007",
+      "term": "Allergy to nadolol (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Allergy to nadolol is a hypersensitivity finding, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "609534005",
+      "term": "Non-allergic hypersensitivity to losartan (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Non-allergic hypersensitivity to losartan is a drug sensitivity, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "18361000122109",
+      "term": "Non-allergic hypersensitivity to moexipril (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Non-allergic hypersensitivity to moexipril is a drug sensitivity, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "1362871000000100",
+      "term": "Allergy to inclisiran (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Allergy to inclisiran is a drug allergy finding, not anaphylaxis itself.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "18321000122100",
+      "term": "Non-allergic hypersensitivity to benazepril (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Non-allergic hypersensitivity to benazepril is a drug sensitivity, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "786836003",
+      "term": "Near fatal asthma",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Near fatal asthma is a severe asthma exacerbation, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "195967001",
+      "term": "Asthma",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Asthma is a chronic respiratory condition, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "609542006",
+      "term": "Non-allergic hypersensitivity to lisinopril (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Non-allergic hypersensitivity to lisinopril is a drug sensitivity, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "762521001",
+      "term": "Exacerbation of allergic asthma",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Exacerbation of allergic asthma is an asthma complication, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "1086701000000102",
+      "term": "Life threatening acute exacerbation of allergic asthma",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Life-threatening acute exacerbation of allergic asthma is severe asthma, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "735589002",
+      "term": "Uncomplicated non-allergic asthma",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Uncomplicated non-allergic asthma is a respiratory condition, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "34015007",
+      "term": "Bakers' asthma",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Bakers' asthma is an occupational respiratory condition, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "985251000000106",
+      "term": "Rivaroxaban allergy (disorder)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Rivaroxaban allergy is a drug allergy finding, not anaphylaxis itself.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "293585002",
+      "term": "Allergy to salicylate (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Allergy to salicylate is a hypersensitivity finding, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "1365431000000106",
+      "term": "Allergy to alirocumab (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Allergy to alirocumab is a drug allergy finding, not anaphylaxis itself.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "293965006",
+      "term": "Allergy to atenolol (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Allergy to atenolol is a hypersensitivity finding, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "370220003",
+      "term": "Occasional asthma",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Occasional asthma is a respiratory condition classification, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "772021008",
+      "term": "Allergy to nebivolol (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Allergy to nebivolol is a hypersensitivity finding, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "293984009",
+      "term": "Allergy to timolol (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Allergy to timolol is a hypersensitivity finding, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "293981001",
+      "term": "Allergy to practolol (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Allergy to practolol is a hypersensitivity finding, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "293975009",
+      "term": "Allergy to metipranolol (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Allergy to a specific medication is not anaphylaxis itself; this is an allergy finding unrelated to the primary condition.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "162660004",
+      "term": "Asthma resolved (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Resolved asthma is a past condition and does not represent active anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "266361008",
+      "term": "Non-allergic asthma",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Non-allergic asthma is a respiratory condition unrelated to anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "10675591000119108",
+      "term": "Severe persistent allergic asthma controlled (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Controlled persistent allergic asthma is a chronic respiratory condition, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "707444001",
+      "term": "Uncomplicated asthma",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Uncomplicated asthma is a respiratory condition distinct from anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "370221004",
+      "term": "Severe asthma",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Severe asthma is a respiratory condition, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "10675431000119106",
+      "term": "Severe persistent allergic asthma",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Severe persistent allergic asthma is a chronic condition, not acute anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "294973005",
+      "term": "Allergy to pravastatin (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Allergy to pravastatin is a medication allergy finding, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "609543001",
+      "term": "Non-allergic hypersensitivity to perindopril (finding)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Non-allergic hypersensitivity to perindopril is a medication hypersensitivity, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "402394004",
+      "term": "Urticaria caused by salicylate (disorder)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Urticaria caused by salicylate is a hypersensitivity reaction, not anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "C4543856",
+      "term": "Uncomplicated allergic asthma",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Uncomplicated allergic asthma is a respiratory condition, not anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "C3662120",
+      "term": "Enalapril pseudoallergy",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Enalapril pseudoallergy is a medication reaction, not anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "C0155877",
+      "term": "Allergic asthma",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Allergic asthma is a respiratory condition distinct from anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "C4274388",
+      "term": "Non-allergic hypersensitivity to imidapril",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Non-allergic hypersensitivity to imidapril is a medication reaction, not anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "C0570901",
+      "term": "Allergy to propranolol",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Allergy to propranolol is a medication allergy finding, not anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "C0570888",
+      "term": "Allergy to esmolol",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Allergy to esmolol is a medication allergy finding, not anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "C0004058",
+      "term": "Allergy to aspirin",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Allergy to aspirin is a medication allergy finding, not anaphylaxis itself.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "C3662116",
+      "term": "Rampiril pseudoallergy",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Ramipril pseudoallergy is a medication reaction, not anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "C3662103",
+      "term": "Cilazapril pseudoallergy",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Cilazapril pseudoallergy is a medication reaction, not anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "C3662118",
+      "term": "Captopril pseudoallergy",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Captopril pseudoallergy is a drug-induced reaction, not primary anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "C3662109",
+      "term": "Quinapril pseudoallergy",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Quinapril pseudoallergy is a drug-induced reaction, not primary anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "C3662122",
+      "term": "Non-allergic hypersensitivity to fosinopril",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Non-allergic hypersensitivity to fosinopril is a drug reaction, not primary anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "C0570887",
+      "term": "Allergy to celiprolol",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Allergy to celiprolol is a beta-blocker allergy, not primary anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "C0570883",
+      "term": "Allergy to acebutolol",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Allergy to acebutolol is a beta-blocker allergy, not primary anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "C0570891",
+      "term": "Allergy to nadolol",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Allergy to nadolol is a beta-blocker allergy, not primary anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "C3662101",
+      "term": "Losartan pseudoallergy",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Losartan pseudoallergy is a drug-induced reaction, not primary anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "C4274387",
+      "term": "Non-allergic hypersensitivity to moexipril",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Non-allergic hypersensitivity to moexipril is a drug reaction, not primary anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "C4274303",
+      "term": "Non-allergic hypersensitivity to benazepril",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Non-allergic hypersensitivity to benazepril is a drug reaction, not primary anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "C3662123",
+      "term": "Lisinopril pseudoallergy",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Lisinopril pseudoallergy is a drug-induced reaction, not primary anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "C0570514",
+      "term": "Allergy to salicylate",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Allergy to salicylate is a specific drug/substance allergy, not primary anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "C0570884",
+      "term": "Allergy to atenolol",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Allergy to atenolol is a beta-blocker allergy, not primary anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "C0413902",
+      "term": "Propranolol adverse reaction",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 0.95,
+      "rationale": "Propranolol adverse reaction is a drug-induced effect, not primary anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.95,
+      "usage_frequency": null
+    },
+    {
+      "code": "292440006",
+      "term": "Propranolol adverse reaction (disorder)",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.9,
+      "rationale": "Propranolol adverse reaction is a generic adverse reaction code, not specifically anaphylaxis.",
+      "sources": [
+        "ChromaDB"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.9,
+      "usage_frequency": null
+    },
+    {
+      "code": "C0413241",
+      "term": "Aspirin-induced angioedema-urticaria",
+      "vocabulary": "UMLS",
+      "decision": "exclude",
+      "confidence": 0.9,
+      "rationale": "Aspirin-induced angioedema-urticaria is a drug-specific reaction, not primary anaphylaxis.",
+      "sources": [
+        "UMLS (synonym)"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.9,
+      "usage_frequency": null
+    },
+    {
+      "code": "737855007",
+      "term": "Anaphylaxis care",
+      "vocabulary": "SNOMED CT",
+      "decision": "exclude",
+      "confidence": 0.85,
+      "rationale": "Anaphylaxis care refers to management/procedure, not the condition of anaphylaxis itself.",
+      "sources": [
+        "OMOPHub"
+      ],
+      "classifier_score": null,
+      "llm_score": 0.85,
+      "usage_frequency": null
+    }
+  ],
+  "provenance_trail": [
+    {
+      "code": "39579001",
+      "source": "OMOPHub",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "241949004",
+      "source": "ChromaDB, QOF Business Rules 2024-25",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "871930001",
+      "source": "OMOPHub",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "139841000119108",
+      "source": "OMOPHub",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "15919481000119106",
+      "source": "OMOPHub",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "15919521000119106",
+      "source": "OMOPHub",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "15919571000119107",
+      "source": "OMOPHub",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "1217476001",
+      "source": "OMOPHub",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "914587451000119107",
+      "source": "OMOPHub",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "428291000124105",
+      "source": "OMOPHub",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "711561000124107",
+      "source": "OMOPHub",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "116261000119105",
+      "source": "OMOPHub",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "427903006",
+      "source": "OMOPHub",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "145631000119102",
+      "source": "OMOPHub",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "429751004",
+      "source": "OMOPHub",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "1003758002",
+      "source": "OMOPHub",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "16220851000119102",
+      "source": "OMOPHub",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "16220811000119103",
+      "source": "OMOPHub",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "430980000",
+      "source": "OMOPHub",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "402390008",
+      "source": "OMOPHub",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C0344180",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "241960008",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C1303167",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C5192201",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C0004096",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C4546431",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C4543857",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C0264480",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "985271000000102",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "735588005",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "609540003",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "389145006",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "18401000122101",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "293982008",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "293969000",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "293586001",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "609545008",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "609539000",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "609538008",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "89731000000101",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "609544007",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "609541004",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "293968008",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "401193004",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "293964005",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "293972007",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "609534005",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "18361000122109",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "1362871000000100",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "18321000122100",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "786836003",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "195967001",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "609542006",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "762521001",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "1086701000000102",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "735589002",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "34015007",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "985251000000106",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "293585002",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "1365431000000106",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "293965006",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "370220003",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "772021008",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "293984009",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "293981001",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "293975009",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "162660004",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "266361008",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "10675591000119108",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "707444001",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "370221004",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "10675431000119106",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "294973005",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "609543001",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "402394004",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C4543856",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C3662120",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C0155877",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C4274388",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C0570901",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C0570888",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C0004058",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C3662116",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C3662103",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C3662118",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C3662109",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C3662122",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C0570887",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C0570883",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C0570891",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C3662101",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C4274387",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C4274303",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C3662123",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C0570514",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C0570884",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C0413902",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "292440006",
+      "source": "ChromaDB",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "C0413241",
+      "source": "UMLS (synonym)",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    },
+    {
+      "code": "737855007",
+      "source": "OMOPHub",
+      "source_url": null,
+      "retrieved_at": "2026-04-07T15:50:18+00:00Z",
+      "enrichment_path": null
+    }
+  ],
+  "summary": {
+    "total_candidates": 100,
+    "included": 21,
+    "excluded": 78,
+    "uncertain": 1,
+    "sources_queried": [
+      "ChromaDB",
+      "OMOPHub",
+      "OpenCodelists (Bennett Institute)",
+      "QOF Business Rules 2024-25"
+    ]
+  }
+}
