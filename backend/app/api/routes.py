@@ -179,6 +179,7 @@ async def evaluate_codes(request: EvaluateRequest):
     })
     eval_result["elapsed_seconds"] = round(time.time() - t0, 2)
     eval_result["pipeline_results_count"] = len(final_codes)
+    eval_result["scored_codes"] = final_codes
 
     return eval_result
 
