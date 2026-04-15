@@ -11,6 +11,8 @@ from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, Field
 
 from app.graph.graph import run_pipeline
+from app.evaluation.evaluator import run_evaluation
+from app.baseline.llm_client import run_baseline
 
 logger = logging.getLogger(__name__)
 
@@ -139,6 +141,91 @@ async def export_codes(search_id: str, output_format: str = "csv"):
         media_type="text/csv",
         headers={"Content-Disposition": f"attachment; filename=codelist_{search_id}.csv"},
     )
+
+
+class EvaluateRequest(BaseModel):
+    test_set: list[dict] = Field(
+        ...,
+        description="Gold-standard test set in Anna's format: [{Entry_no, Research_question, Codelist, Codelist_terms, Codelist_vocabulary, ...}]",
+    )
+
+
+@router.post("/evaluate")
+async def evaluate_codes(request: EvaluateRequest):
+    """Run the pipeline on a test set query and evaluate against the gold standard."""
+    test_set = request.test_set
+    if not test_set:
+        raise HTTPException(status_code=400, detail="test_set cannot be empty")
+
+    query = test_set[0].get("Research_question", "")
+    if not query:
+        raise HTTPException(status_code=400, detail="No Research_question found in test set")
+
+    t0 = time.time()
+
+    try:
+        pipeline_result = await asyncio.to_thread(run_pipeline, query)
+    except Exception as exc:
+        logger.error("Evaluation pipeline failed: %s", exc)
+        raise HTTPException(status_code=500, detail="Pipeline processing failed")
+
+    final_codes = pipeline_result.get("final_code_list", [])
+    retrieved_codes = pipeline_result.get("retrieved_codes", [])
+    enriched_codes = pipeline_result.get("enriched_codes", [])
+
+    eval_result = run_evaluation(test_set, {
+        "results": final_codes,
+        "retrieved_codes": retrieved_codes,
+        "enriched_codes": enriched_codes,
+    })
+    eval_result["elapsed_seconds"] = round(time.time() - t0, 2)
+    eval_result["pipeline_results_count"] = len(final_codes)
+    eval_result["scored_codes"] = final_codes
+    eval_result["pipeline"] = "rag"
+
+    return eval_result
+
+
+class BaselineRequest(BaseModel):
+    test_set: list[dict] = Field(
+        ...,
+        description="Same format as /api/evaluate. Runs an LLM-only baseline (no RAG) on Research_question and evaluates against Codelist.",
+    )
+    model: str = Field(
+        default="microsoft/phi-4",
+        description="OpenRouter model id, e.g. 'microsoft/phi-4', 'openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku'.",
+    )
+
+
+@router.post("/baseline")
+async def baseline_evaluate(request: BaselineRequest):
+    """
+    Run an LLM-only baseline (no retrieval) against a test set and evaluate
+    against the gold-standard codelist. Used to show the uplift the RAG
+    pipeline provides over a direct LLM call.
+    """
+    test_set = request.test_set
+    if not test_set:
+        raise HTTPException(status_code=400, detail="test_set cannot be empty")
+
+    query = test_set[0].get("Research_question", "")
+    if not query:
+        raise HTTPException(status_code=400, detail="No Research_question found in test set")
+
+    t0 = time.time()
+    try:
+        codes = await asyncio.to_thread(run_baseline, query, model=request.model)
+    except Exception as exc:
+        logger.error("Baseline (%s) pipeline failed: %s", request.model, exc)
+        raise HTTPException(status_code=500, detail=f"Baseline failed: {exc}")
+
+    eval_result = run_evaluation(test_set, {"results": codes})
+    eval_result["elapsed_seconds"] = round(time.time() - t0, 2)
+    eval_result["pipeline"] = f"baseline:{request.model}"
+    eval_result["pipeline_results_count"] = len(codes)
+    eval_result["scored_codes"] = codes
+
+    return eval_result
 
 
 class ReviewRequest(BaseModel):

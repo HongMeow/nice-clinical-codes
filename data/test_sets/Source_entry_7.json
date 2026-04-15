@@ -1,0 +1,16 @@
+[
+  {
+    "Entry_no":7,
+    "Ref_link":"https:\/\/datacompass.lshtm.ac.uk\/id\/eprint\/4529\/",
+    "Ref_reviewer":"AD",
+    "Ref_review_FLAG":"no - mock",
+    "Source_creation_date":1569542400000,
+    "Research_question":"ICD10 codes for a clinical diagnosis of intracranial hypertension",
+    "Codelist_vocabulary":"ICD-10",
+    "Codelist":"G93.2",
+    "Codelist_terms":"Intracranial hypertension",
+    "Terms_count":1,
+    "Codes_count":1,
+    "Diff_FLAG":"N"
+  }
+]

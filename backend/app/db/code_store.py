@@ -42,6 +42,7 @@ def _init_tables(conn: sqlite3.Connection):
         )
     """)
     conn.execute("CREATE INDEX IF NOT EXISTS idx_codes_cluster ON codes(cluster_description)")
+    conn.execute("CREATE INDEX IF NOT EXISTS idx_codes_term ON codes(term)")
     conn.execute("CREATE INDEX IF NOT EXISTS idx_codes_vocabulary ON codes(vocabulary)")
     conn.commit()
 
@@ -73,10 +74,10 @@ def insert_codes(codes: list[dict]) -> int:
 
 
 def search_by_condition(condition: str, vocabulary: str | None = None) -> list[dict]:
-    """Search codes by cluster description (condition name). Uses LIKE for fuzzy matching."""
+    """Search codes by cluster description or term. Uses LIKE for fuzzy matching."""
     conn = get_connection()
-    query = "SELECT * FROM codes WHERE cluster_description LIKE ?"
-    params: list = [f"%{condition}%"]
+    query = "SELECT * FROM codes WHERE (cluster_description LIKE ? OR term LIKE ?)"
+    params: list = [f"%{condition}%", f"%{condition}%"]
 
     if vocabulary:
         query += " AND vocabulary = ?"

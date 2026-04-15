@@ -1,0 +1,16 @@
+[
+  {
+    "code": "241960008",
+    "term": "Aspirin-induced angioedema-urticaria (disorder)",
+    "vocabulary": "SNOMED CT",
+    "decision": "uncertain",
+    "confidence": 0.6,
+    "rationale": "Aspirin-induced angioedema-urticaria can be a manifestation related to anaphylaxis but is typically a localized reaction rather than systemic anaphylaxis.",
+    "sources": [
+      "ChromaDB"
+    ],
+    "classifier_score": null,
+    "llm_score": 0.6,
+    "usage_frequency": null
+  }
+]
